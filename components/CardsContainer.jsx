@@ -1,6 +1,16 @@
-const CardsContainer = (props) => {
+import Card from './Card.jsx'
+
+const CardsContainer = ({data}) => {
+  console.log(data)
   return (
-    <p>Cards Container</p>
+    <div className="cards-container">
+      {data.map((item, index) => {
+        return (
+          <Card key={index} data={item}/>
+        )
+      }
+      )}
+    </div>
   )
 }
 
