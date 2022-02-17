@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div>
       <Header/>
-      <CardsContainer data={data.characters.results}/>
+      <CardsContainer data={data.characters.results.slice(0,5)}/>
       <Footer/>
     </div>
   )

@@ -6,8 +6,10 @@ const Card = ({data}) => {
       </div>
       <div className="card-info">
         <h2>{data.name}</h2>
-        <span><h3>Estado:</h3><p>{data.status}</p></span>
-        <span><h3>Localización:</h3><p>{data.location.type} - {data.location.name}</p></span>
+        <h3>Estado:</h3>
+        <p>{data.status}</p>
+        <h3>Localización:</h3>
+        <p>{data.location.type} - {data.location.name}</p>
       </div>
     </div>
 
