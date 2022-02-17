@@ -25,7 +25,7 @@ const Home = () => {
   if (loading) return  <p>Loading...</p>;
 
   return (
-    <div onScroll={uy}>
+    <div>
       <Header/>
       <CardsContainer data={data.characters.results.slice(0,5)}/>
       <Footer/>
