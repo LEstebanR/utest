@@ -19,14 +19,12 @@ const DATA_QUERY = gql`
     }
   }
 `
-
-
-export default function Home() {
+const Home = () => {
   const { loading, error, data } = useQuery(DATA_QUERY);
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error :(</p>;
-
+  if (loading) return  <p>Loading...</p>;
+  if(error) return <p>Error... :(</p>
+  
   return (
     <div>
       <Header/>
@@ -34,4 +32,7 @@ export default function Home() {
       <Footer/>
     </div>
   )
+
 }
+
+export default Home;

@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 
-const client = new ApolloClient({
+export  const client = new ApolloClient({
   uri: "https://rickandmortyapi.com/graphql",
   cache: new InMemoryCache()
 });

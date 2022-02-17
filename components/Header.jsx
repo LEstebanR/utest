@@ -8,13 +8,16 @@ const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
 
   const handleMenu = () => setShowMenu(!showMenu);
+
+  
+  
  return (
     <nav className="header">
       <Link href="https://github.com/LEstebanR/utest">
         <img  className="header-logo" src="https://res.cloudinary.com/lesteban/image/upload/v1645038339/Logos/mat_oaohzt.svg" alt="mat-logo"></img>
       </Link>
       <ul className="header-items"id={!showMenu ? "show" : "hidden"} >
-        <details close>
+        <details>
           <summary>Conduce</summary>
           <ul className="conduce">
             <li><Link href="https://github.com/LEstebanR/utest">Inicio</Link></li>

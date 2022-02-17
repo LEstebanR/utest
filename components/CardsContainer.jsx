@@ -1,7 +1,6 @@
 import Card from './Card.jsx'
 
 const CardsContainer = ({data}) => {
-  console.log(data)
   return (
     <div className="cards-container">
       {data.map((item, index) => {
