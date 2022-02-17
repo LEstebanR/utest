@@ -293,7 +293,7 @@ DESKTOP VIEW
 }
 
 .header{
-  width: 70%;
+  width: 85vw;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
