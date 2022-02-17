@@ -18,7 +18,7 @@ a {
 
 
 .header{
-  width: 70%;
+  width: 80%;
   height: 100px;
   margin: auto;
   display: flex;
@@ -36,9 +36,18 @@ a {
 }
 
 .header-menu-button{
-  font-size: 30px;
+  font-size: 45px;
   padding: 20px;
+  margin-top: auto;
 
+}
+
+.header-menu-button-click{
+  font-size: 45px;
+  padding: 20px;
+  color: white;
+  margin-top: auto;
+  background-color: darkgray;
 }
 
 .header-items{
@@ -280,6 +289,7 @@ DESKTOP VIEW
 }
 
 .header{
+  width: 70%;
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
@@ -287,6 +297,10 @@ DESKTOP VIEW
 }
 
 .header-menu-button{
+  display: none;
+}
+
+.header-menu-button-click{
   display: none;
 }
 

@@ -13,9 +13,8 @@ const Header = () => {
       <Link href="https://github.com/LEstebanR/utest">
         <img  className="header-logo" src="https://res.cloudinary.com/lesteban/image/upload/v1645038339/Logos/mat_oaohzt.svg" alt="mat-logo"></img>
       </Link>
-      <ul className="header-items"id={showMenu ? "show" : "hidden"} >
-        {/* <li><Link href="https://github.com/LEstebanR/utest">Conduce</Link></li> */}
-        <details open>
+      <ul className="header-items"id={!showMenu ? "show" : "hidden"} >
+        <details close>
           <summary>Conduce</summary>
           <ul className="conduce">
             <li><Link href="https://github.com/LEstebanR/utest">Inicio</Link></li>
@@ -26,7 +25,7 @@ const Header = () => {
         <li><Link href="https://github.com/LEstebanR/utest">Acerca de MAT</Link></li>
         <li><Link href="https://github.com/LEstebanR/utest">COVID-19</Link></li>
       </ul>
-      <FontAwesomeIcon onClick={handleMenu} className="header-menu-button" icon={faBars}/>
+      <FontAwesomeIcon onClick={handleMenu} className={ showMenu ? "header-menu-button" : "header-menu-button-click" } icon={faBars}/>
     </nav>
   )
 }
