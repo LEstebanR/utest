@@ -5,7 +5,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 const Header = () => {
-  const [showMenu, setShowMenu] = useState(false);
+  const [showMenu, setShowMenu] = useState(true);
 
   const handleMenu = () => setShowMenu(!showMenu);
  return (
