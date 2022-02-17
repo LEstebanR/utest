@@ -258,6 +258,8 @@ DESKTOP VIEW
 
   footer{
     width: 85vw;
+    max-width: 1280px;
+    min-width: 800px;
     
   }
 
