@@ -4,13 +4,12 @@ import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { useState } from "react";
 import Link from "next/link";
 
+
+
 const Header = () => {
   const [showMenu, setShowMenu] = useState(true);
-
   const handleMenu = () => setShowMenu(!showMenu);
-
-  
-  
+ 
  return (
     <nav className="header">
       <Link href="https://github.com/LEstebanR/utest">

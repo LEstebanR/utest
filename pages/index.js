@@ -23,10 +23,9 @@ const Home = () => {
   const { loading, error, data } = useQuery(DATA_QUERY);
 
   if (loading) return  <p>Loading...</p>;
-  if(error) return <p>Error... :(</p>
-  
+
   return (
-    <div>
+    <div onScroll={uy}>
       <Header/>
       <CardsContainer data={data.characters.results.slice(0,5)}/>
       <Footer/>

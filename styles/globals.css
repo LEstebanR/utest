@@ -211,6 +211,8 @@ footer .subtitle{
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  position: absolute !important;
+
 }
 
 .conduce li{
@@ -219,6 +221,7 @@ footer .subtitle{
   list-style: outside;
 
 }
+
 
 /* 
 DESKTOP VIEW 
