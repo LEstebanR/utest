@@ -50,7 +50,7 @@ const Styled = () => {
         <tr>
           <th>Nombre</th>
           <th>Estado</th>
-          <th>Locatlización</th>
+          <th>Localización</th>
         </tr>
       </thead>
       <tbody>
