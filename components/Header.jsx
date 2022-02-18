@@ -12,20 +12,20 @@ const Header = () => {
  
  return (
     <nav className="header">
-      <Link href="https://github.com/LEstebanR/utest">
+      <Link href="/styled">
         <img  className="header-logo" src="https://res.cloudinary.com/lesteban/image/upload/v1645038339/Logos/mat_oaohzt.svg" alt="mat-logo"></img>
       </Link>
       <ul className="header-items"id={!showMenu ? "show" : "hidden"} >
         <details>
           <summary>Conduce</summary>
           <ul className="conduce">
-            <li><Link href="https://github.com/LEstebanR/utest">Inicio</Link></li>
-            <li><Link href="https://github.com/LEstebanR/utest">Acerca de</Link></li>
+            <li><Link href="styled">Inicio</Link></li>
+            <li><Link href="styled">Acerca de</Link></li>
           </ul>
         </details>
-        <li><Link href="https://github.com/LEstebanR/utest">MAT pits</Link></li>
-        <li><Link href="https://github.com/LEstebanR/utest">Acerca de MAT</Link></li>
-        <li><Link href="https://github.com/LEstebanR/utest">COVID-19</Link></li>
+        <li><Link href="styled">MAT pits</Link></li>
+        <li><Link href="styled">Acerca de MAT</Link></li>
+        <li><Link href="styled">COVID-19</Link></li>
       </ul>
       <FontAwesomeIcon onClick={handleMenu} className={ showMenu ? "header-menu-button" : "header-menu-button-click" } icon={faBars}/>
     </nav>
