@@ -19,13 +19,13 @@ const Header = () => {
         <details>
           <summary>Conduce</summary>
           <ul className="conduce">
-            <li><Link href="/styled">Inicio</Link></li>
-            <li><Link href="/styled">Acerca de</Link></li>
+            <li><Link href="/Styled">Inicio</Link></li>
+            <li><Link href="/Styled">Acerca de</Link></li>
           </ul>
         </details>
-        <li><Link href="/styled">MAT pits</Link></li>
-        <li><Link href="/styled">Acerca de MAT</Link></li>
-        <li><Link href="/styled">COVID-19</Link></li>
+        <li><Link href="/Styled">MAT pits</Link></li>
+        <li><Link href="/Styled">Acerca de MAT</Link></li>
+        <li><Link href="/Styled">COVID-19</Link></li>
       </ul>
       <FontAwesomeIcon onClick={handleMenu} className={ showMenu ? "header-menu-button" : "header-menu-button-click" } icon={faBars}/>
     </nav>
