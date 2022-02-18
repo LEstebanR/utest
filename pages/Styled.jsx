@@ -5,7 +5,7 @@ import Button from '../components/Button';
 import Number from '../components/Number';
 import Table from '../components/Table';
 
-const styled = () => {
+const Styled = () => {
   const [page, setPage] = useState(1);
   const DATA_QUERY = gql`
   {
@@ -44,7 +44,7 @@ const styled = () => {
 
   return (
     <div className='styled-container'>
-    <Link href="/"><Button>Home</Button></Link>
+    <Link href="/" passHref><Button>Home</Button></Link>
     <Table>
       <thead>
         <tr>
@@ -72,4 +72,4 @@ const styled = () => {
   )
 }
 
-export default styled
+export default Styled
