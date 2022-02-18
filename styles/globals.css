@@ -277,7 +277,7 @@ DESKTOP VIEW
 .footer-end{
   margin-top: 55px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .card-info h2{
@@ -328,6 +328,10 @@ DESKTOP VIEW
 .header-items li{
   padding: 0;
   margin : 0 25px;
+}
+
+.header-items details{
+  margin: 0 25px
 }
 
 .header #hidden{

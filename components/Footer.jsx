@@ -37,8 +37,7 @@ const Footer = () => {
       </div>
       <hr/>
       <div className="footer-end">
-        
-        <h4>® 2021 MAT. All Rights Reserved</h4>
+        <p><strong>® 2021 MAT. All Rights Reserved</strong></p>
         <p>Manual de tratamiento de datos</p>
         <p>Aviso de privacidad</p>
       </div>
